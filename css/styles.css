@@ -8,3 +8,14 @@ img {
   display: block;
   max-width: 100%;
 }
+p {
+  font-family: 'VT323', monospace;
+}
+.steph {
+  background-color:bisque;
+  border:#e28117 solid 5px;
+ 
+}
+.bertie {
+  background-color:#008282 ;
+}
