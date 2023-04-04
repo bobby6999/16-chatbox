@@ -4,11 +4,21 @@ body {
   background-color: #120E0E;
 }
 header {
-  color:antiquewhite;
+  background-color: navy;
+
 }
+
+h1 {
+  font-family:'VT323', monospace;
+  color: bisque;
+}
+
 img {
   display: block;
   max-width: 100%;
+  width: 130px;
+  height: 140px; 
+  padding-left: 20px ; 
 }
 
 p {
@@ -18,12 +28,27 @@ p {
 .steph {
   background-color: bisque;
   border: #e28117 solid 5px;
- 
+  border-radius: 20px 20px 20px 0;
+  padding: 10px 15px;
+  margin-bottom: 50px ;
 }
 
 .bertie {
   background-color: bisque;
   border: #008282 solid 5px;
-
-
+  border-radius: 20px 20px 0 20px;
+  padding: 10px 15px;
+  margin-bottom: 50px ;
 }
+
+.message-content {
+  border-radius: 15px 15px 15px 0;
+  margin: 0 0 5px 0;
+  padding: 10px 15px;
+}
+
+.date {
+  text-align: center;
+  color:bisque;
+}
+
