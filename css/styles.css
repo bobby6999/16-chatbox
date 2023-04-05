@@ -2,15 +2,19 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: #120E0E;
+  display:flex;
+  flex-direction:column;
 }
-header {
-  background-color: navy;
 
+header {
+  background-color:#d07613;
+  border-radius: 5px;;
 }
 
 h1 {
   font-family:'VT323', monospace;
   color: bisque;
+  margin-left:10px;
 }
 
 img {
@@ -30,7 +34,9 @@ p {
   border: #e28117 solid 5px;
   border-radius: 20px 20px 20px 0;
   padding: 10px 15px;
-  margin-bottom: 50px ;
+  margin-bottom: 50px;
+  align-items: flex-start;
+  box-shadow:-10px 5px 0 #d07613;
 }
 
 .bertie {
@@ -38,7 +44,9 @@ p {
   border: #008282 solid 5px;
   border-radius: 20px 20px 0 20px;
   padding: 10px 15px;
-  margin-bottom: 50px ;
+  margin-bottom: 50px;
+  align-items: flex-end;
+  box-shadow:10px 5px 0 #0a6565;
 }
 
 .message-content {
@@ -51,4 +59,5 @@ p {
   text-align: center;
   color:bisque;
 }
+
 
